@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .menubar ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menubar li{
+            display: inline-block;
+            position: relative;
+            margin-right: 2px;
+        }
+        .menubar .submenu{
+            display: none;
+            position: absolute;
+            top: 100%;
+            width: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+        }
+        .menubar li:hover .submenu{
+            display: block;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav class="menubar">
+        <div class="dropdown1">
+            <ul>
+                <li class="dropdown">
+                    <a href="#">🍱</a>
+                    <ul class="submenu">
+    
+                        <li><img src="food1.png" alt="" width="50px" height="50px"></li> 
+                        <li><img src="food2.png" alt="" width="50px" height="50px"></li> 
+                        <li><img src="food3.png" alt="" width="50px" height="50px"></li> 
+             
+                </li>
+                <ul> 
+        </div>
+      <div class="dropdown2">
+        <li class="dropdown">
+            <a href="#">⚽</a>
+            <ul class="submenu">
+
+                <li><img src="sport1.png" alt="" width="50px" height="50px"></li> 
+                <li><img src="sport2.png" alt="" width="50px" height="50px"></li> 
+                <li><img src="sport3.png" alt="" width="50px" height="50px"></li> 
+     
+        </li>
+    </ul>
+      </div>
+              <div class="dropdown3">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">⚽</a>
+                        <ul class="submenu">
+        
+                            <li><img src="sport1.png" alt="" width="50px" height="50px"></li> 
+                            <li><img src="sport2.png" alt="" width="50px" height="50px"></li> 
+                            <li><img src="sport3.png" alt="" width="50px" height="50px"></li> 
+                 
+                    </li>
+                </ul>
+                
+                
+    
+              </div>
+           
+         
+        </ul>
+    </nav>
+</body>
+</html>
